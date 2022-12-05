@@ -4,9 +4,9 @@ export default function AuthorizeToken({ children }) {
   const token = getToken();
   if (!token) {
     return (
-      <div>
-        Ud no esta autorizado
-      </div>
+      <h3>
+        Ud no esta autorizado-registrarse por favor
+      </h3>
     );
   }
 
